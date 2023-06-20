@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.day {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+.calender_parent{
+  display:grid;
+  border: 2px solid darkgreen;
+}
+.date_calender{
+  display: flex;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    font-family: serif;
+}
+.header{
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: serif;
+}
+.calendar{
+  border: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    width: 240px;
+    background-color: darkseagreen;
+}
+.days-of-week{
+  font-style: oblique;
+    font-weight: bold;
+    color: mediumvioletred;
+    margin-right: 20px;
+}
